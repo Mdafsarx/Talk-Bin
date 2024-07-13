@@ -36,3 +36,8 @@
 .bg:hover{
     background: #5AB2FF;
 }
+
+
+.profile{
+    transform: translateY(-30px);
+}

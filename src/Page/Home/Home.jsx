@@ -7,11 +7,11 @@ const Home = () => {
             <div className="pt-5">
                 <h1 className="text-gradient fw-bold text-uppercase">Hello, SAKIB AHMED</h1>
                 <h3 className="text-uppercase text-gradient2">Welcome to direct message with MD AFSAR</h3>
-                <p>DM is a unique platform designed for direct and personal communication <br /> with me. Whether you have questions, need advice, or just want to chat, <br /> I'm here for you.</p>
+                <p>DM is a unique platform designed for direct and personal communication between me and <br/> a special group of users. Whether you have questions, need advice, or just want to chat,<br /> I'm here for you.</p>
                 {/* <p className="fw-bold fs-5">What You Can Expect:</p> */}
 
                 {/* features card */}
-                <div className="row gap-3">
+                <div className="row gap-3 mt-4 ">
 
                     <div className="card col-6" style={{ width: '21rem' }}>
                         <div className="card-body">
@@ -32,6 +32,7 @@ const Home = () => {
                     </div>
 
                 </div>
+
                 <div className="row gap-3 mt-3">
 
                     <div className="card col-6" style={{ width: '21rem' }}>

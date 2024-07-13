@@ -11,7 +11,7 @@ const Layout = () => {
             <div className="w-100">
                 <TopNav />
 
-                <div className="p-3">
+                <div className="p-4">
                     <Outlet />
                 </div>
 

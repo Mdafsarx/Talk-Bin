@@ -4,3 +4,26 @@
 .Text2{
     color: #5EF4D6;
 }
+
+.text-gradient {
+    background: linear-gradient(90deg,#5EF4D6 , #5AB2FF);
+    font-size: 53px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.05);
+}
+.text-gradient2 {
+    background: linear-gradient(90deg,#5AB2FF , #5EF4D6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.05);
+}
+
+.img-size{
+    width: 40px;
+    height: 40px;
+    image-resolution: initial;
+}
+.Border{
+    border: 3px solid #5EF4D6;
+}

@@ -1,16 +1,21 @@
-import { RiChatSmileLine} from "react-icons/ri"
-import img from "../assets/chatbot (2).png"
+import { RiChatSmileLine } from "react-icons/ri"
+import img from "../assets/JavaScript-logo.png"
 import './text.css'
+import { LuSun } from "react-icons/lu"
+import { useState } from "react"
+import { FaRegMoon } from "react-icons/fa"
 
 
 export default function TopNav() {
+    const [toggle, setToggle] = useState(false)
     return (
         <div>
-            <nav className="navbar navbar-expand-lg bg-dark p-3">
+            <nav className="navbar navbar-expand-lg bg-dark p-">
 
                 <div className="container-fluid">
-                    <div className="navbar-brand text-white d-flex align-items-center" > 
-                       <span className="Text2">GPT</span> <RiChatSmileLine className="Text2"/>
+
+                    <div className="navbar-brand text-white d-flex align-items-center" >
+                        <span className="Text2">DM</span> <RiChatSmileLine className="Text2" />
                     </div>
 
                     {/* toggle-bar for small device */}
@@ -18,7 +23,7 @@ export default function TopNav() {
                         <span className="navbar-toggler-icon"></span>
                     </button>
 
-                     {/* profile */}
+                    {/* profile */}
                     <div className="collapse navbar-collapse">
 
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
@@ -33,9 +38,10 @@ export default function TopNav() {
                             </li> */}
                         </ul>
 
-                        <div className="d-flex gap-2">
-                            <button className="btn btn-primary">Setting</button>
-                            <button className="btn btn-danger d-flex align-items-center rounded-circle"><img src={img} width={20} className="rounded-circle" alt="" /></button>
+                        <div className="d-flex flex-row align-items-center gap-2 text-white">
+                            <span className="fs-3 pb-1 Text2"
+                                onClick={() => setToggle((prev) => !prev)}>{toggle ? <FaRegMoon /> : <LuSun />}</span>
+                            <img src={img} className="rounded-circle img-size Border" alt="" />
                         </div>
 
                     </div>

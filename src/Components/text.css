@@ -27,3 +27,12 @@
 .Border{
     border: 3px solid #5EF4D6;
 }
+
+.bg{
+    background-color:#5EF4D6 ;
+    border: 0;
+}
+
+.bg:hover{
+    background: #5AB2FF;
+}

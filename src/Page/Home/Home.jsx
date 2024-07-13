@@ -1,3 +1,5 @@
+import { FiSend } from "react-icons/fi";
+
 /* eslint-disable react/no-unescaped-entities */
 const Home = () => {
     return (
@@ -53,7 +55,7 @@ const Home = () => {
                 </div>
    
                 <div className="d-flex justify-content-center">
-                    <button className="btn btn-danger">Start Talking</button>
+                    <button className="btn  mt-5 d-flex align-items-center gap-2 bg text-dark"><FiSend/> Start Talking</button>
                 </div>
 
             </div>
